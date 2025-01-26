@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard - Online Learning Platform</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="navbar">
+        <h1>Online Learning Platform</h1>
+        <nav>
+            <ul>
+                <li><a href="dashboard.html">Dashboard</a></li>
+                <li><a href="courses.html">Courses</a></li>
+                <li><a href="profile.html">Profile</a></li>
+                <li><a href="logout.html">Logout</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="dashboard-container">
+        <h2>Welcome, [Student Name]</h2><br/>
+        <div class="progress-section">
+            <h3>Your Progress</h3><br/>
+            <p>Courses Completed: <span id="completedCourses">0</span></p><br/>
+            <p>Videos Watched: <span id="watchedVideos">0</span></p><br/>
+            <p>Quizzes Completed: <span id="completedQuizzes">0</span></p><br/>
+        </div>
+        <div class="courses-section">
+            <h3>Your Courses</h3>
+            <ul id="courseList">
+                <!-- Dynamic Course List -->
+            </ul>
+        </div>
+    </main>
+    <script src="dashboard.js"></script>
+</body>
+</html>

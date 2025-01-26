@@ -1,0 +1,268 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+/* Container */
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header Styling */
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 50px 20px;
+    text-align: center;
+    border-radius: 8px;
+    margin-bottom: 40px;
+}
+
+header .header-content h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+header .header-content p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.cta-button {
+    background-color: #007bff;
+    color: white;
+    padding: 12px 30px;
+    font-size: 1.2em;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #0056b3;
+}
+
+/* Featured Lessons Section */
+#featured-lessons {
+    margin-bottom: 50px;
+}
+
+#featured-lessons h2 {
+    font-size: 2.5em;
+    text-align: center;
+    margin-bottom: 30px;
+    color: #333;
+}
+
+.lesson-grid {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.lesson-card {
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 30%;
+    text-align: center;
+}
+
+.lesson-card h3 {
+    font-size: 1.8em;
+    margin-bottom: 15px;
+}
+
+.lesson-card p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+/* Testimonials Section */
+#testimonials {
+    margin-bottom: 50px;
+}
+
+#testimonials h2 {
+    font-size: 2.5em;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.testimonial-card {
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    font-style: italic;
+    text-align: center;
+}
+
+.testimonial-card strong {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+/* Footer Styling */
+footer {
+    text-align: center;
+    font-size: 1.2em;
+    margin-top: 50px;
+    color: #888;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+    header .header-content h1 {
+        font-size: 2.5em;
+    }
+
+    .lesson-grid {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .lesson-card {
+        width: 80%;
+        margin-bottom: 30px;
+    }
+
+    #testimonials .testimonial-card {
+        width: 80%;
+        margin: 0 auto;
+    }
+}
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+/* Container */
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header Styling */
+header {
+    background-color: #5C6BC0;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+    margin-bottom: 30px;
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 1.2em;
+    padding: 5px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+    background-color: #4A57A0;
+}
+
+/* Lesson Content Section */
+#lesson-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.lesson-card {
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
+}
+
+.lesson-card h2 {
+    font-size: 1.8em;
+    margin-bottom: 15px;
+}
+
+.lesson-card p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.lesson-card button {
+    background-color: #5C6BC0;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.lesson-card button:hover {
+    background-color: #4A57A0;
+}
+
+/* Video Player */
+video {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    font-size: 1em;
+    margin-top: 50px;
+}
+
+footer p {
+    color: #888;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2em;
+    }
+
+    .lesson-card {
+        width: 100%;
+    }
+}

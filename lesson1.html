@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lesson 1: HTML Basics</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Header Section -->
+        <header>
+            <h1>Lesson 1: HTML Basics</h1>
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="lesson2.html">Next: CSS Basics</a>
+            </nav>
+        </header>
+
+        <!-- Lesson Content Section -->
+        <section id="lesson-content">
+            <div class="lesson-card">
+                <h2>Watch the Video</h2>
+                <video id="videoPlayer1" controls>
+                    <source src="assets/video1.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+
+            <div class="lesson-card">
+                <h2>Quiz: HTML Basics</h2>
+                <p>What is the purpose of HTML?</p>
+                <button onclick="submitAnswer(1, 'A')">Option A: Structure of web pages</button><br/>
+                <button onclick="submitAnswer(1, 'B')">Option B: Styling of web pages</button><br/>
+                <button onclick="submitAnswer(1, 'C')">Option C: Server-side scripting</button><br/>
+            </div>
+
+            <div class="lesson-card">
+                <h2>Your Progress</h2>
+                <p>Video Progress: <span id="videoProgressText1">Not Started</span></p>
+                <p>Quiz Status: <span id="quizStatus1">Not Completed</span></p>
+            </div>
+        </section>
+
+        <!-- Footer Section -->
+        <footer>
+            <p>© 2025 Online Learning Platform</p>
+        </footer>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>

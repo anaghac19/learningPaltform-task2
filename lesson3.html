@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lesson 3: JavaScript Basics</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Header Section -->
+        <header>
+            <h1>Lesson 3: JavaScript Basics</h1>
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="lesson1.html">Back: HTML Basics</a>
+            </nav>
+        </header>
+
+        <!-- Lesson Content Section -->
+        <section id="lesson-content">
+            <div class="lesson-card">
+                <h2>Watch the Video</h2>
+                <video id="videoPlayer3" controls>
+                    <source src="assets/video3.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+
+            <div class="lesson-card">
+                <h2>Quiz: JavaScript Basics</h2>
+                <p>What does JavaScript allow you to do?</p>
+                <button onclick="submitAnswer(3, 'A')">Option A: Add styles to a webpage</button>
+                <button onclick="submitAnswer(3, 'B')">Option B: Create interactive content</button>
+                <button onclick="submitAnswer(3, 'C')">Option C: Build server-side applications</button>
+            </div>
+
+            <div class="lesson-card">
+                <h2>Your Progress</h2>
+                <p>Video Progress: <span id="videoProgressText3">Not Started</span></p>
+                <p>Quiz Status: <span id="quizStatus3">Not Completed</span></p>
+            </div>
+        </section>
+
+        <!-- Footer Section -->
+        <footer>
+            <p>© 2025 Online Learning Platform</p>
+        </footer>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
